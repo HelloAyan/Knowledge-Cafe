@@ -1,0 +1,8 @@
+.MainContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.knowledgeFont {
+    font-size: 40px;
+}
