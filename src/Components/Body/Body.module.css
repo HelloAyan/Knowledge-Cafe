@@ -1,0 +1,13 @@
+.bodyMainContainer {
+    width: 100%;
+    display: flex;
+}
+
+
+.leftPart {
+    width: 65%;
+}
+
+.rightPart {
+    width: 35%;
+}
