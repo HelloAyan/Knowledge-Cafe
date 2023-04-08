@@ -1,0 +1,14 @@
+.mainContainer {
+    margin-top: 50px;
+}
+
+.question {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.answer {
+    font-size: 16px;
+}

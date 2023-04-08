@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Styles from '../Body/Body.module.css';
 import Blog from '../Blog/Blog';
 import Bookmark from '../Bookmark/Bookmark';
+import Question from '../Question/Question';
 
 const BodyContent = () => {
     const [blogInfo, setBlogInfo] = useState([]);
@@ -17,6 +18,7 @@ const BodyContent = () => {
             <div className={Styles.leftPart}>
 
                 <Blog blogInfo={blogInfo} ></Blog>
+                <Question />
             </div>
             <div className={Styles.rightPart}>
                 <Bookmark blogInfo={blogInfo} />

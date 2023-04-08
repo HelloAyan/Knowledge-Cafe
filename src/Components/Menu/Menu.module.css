@@ -13,4 +13,8 @@ hr {
 
 /* Responsive Part Start */
 
-@media screen {}
+@media screen and (max-width: 576px) {
+    .knowledgeFont {
+        font-size: 25px;
+    }
+}
