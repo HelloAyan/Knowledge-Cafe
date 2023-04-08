@@ -76,3 +76,12 @@
     font-size: 18px;
     cursor: pointer;
 }
+
+
+/* Responsive part Start */
+@media screen and (max-width: 576px) {
+    .blogTitleSection {
+        margin-top: 18px;
+        font-size: 25px;
+    }
+}
