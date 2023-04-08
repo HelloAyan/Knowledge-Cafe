@@ -12,12 +12,21 @@
 
 .bookMarkBlogContainer {
     margin-top: 25px;
-    border: 1px solid gray;
     background-color: #EFEDFD;
     padding: 30px;
+    border-radius: 5px;
 }
 
 .bookMarkText {
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.checkedItemsContainer {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 10px;
 }

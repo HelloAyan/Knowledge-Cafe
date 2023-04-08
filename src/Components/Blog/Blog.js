@@ -23,8 +23,8 @@ const Blog = ({ blogInfo }) => {
                                 </div>
                                 <div className={Styles.authorSectionRight}>
                                     <div className={Styles.minRedSection}>
-                                        <div> {blogs.readTime} </div>
-                                        <div> <img src={redTimeIcon} alt="" style={{ width: '15px', height: '15px' }} />  </div>
+                                        <div> {blogs.readTime} min read </div>
+                                        <div style={{ cursor: 'pointer' }}> <img src={redTimeIcon} alt="" style={{ width: '15px', height: '15px' }} />  </div>
                                     </div>
                                 </div>
                             </div>

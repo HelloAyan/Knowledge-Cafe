@@ -19,7 +19,7 @@ const BodyContent = () => {
                 <Blog blogInfo={blogInfo} ></Blog>
             </div>
             <div className={Styles.rightPart}>
-                <Bookmark />
+                <Bookmark blogInfo={blogInfo} />
             </div>
         </div>
     )
