@@ -7,19 +7,16 @@ const Bookmark = ({ blogInfo }) => {
     return (
         <div>
             <div className={Styles.totalTimeCountContainer}>
-                Spent time on read : 177 min
+                Spent time on read : 50 min
             </div>
             <div className={Styles.bookMarkBlogContainer}>
-                <div className={Styles.bookMarkText}>Bookmarked Blogs : 8</div>
-                <div className={Styles.checkedItemsContainer}>
-                    <div>Master Microsoft Power Platform and Become an In-Demand!</div>
-                </div>
-                <div className={Styles.checkedItemsContainer}>
-                    <div>Master Microsoft Power Platform and Become an In-Demand!</div>
-                </div>
-                <div className={Styles.checkedItemsContainer}>
-                    <div>Master Microsoft Power Platform and Become an In-Demand!</div>
-                </div>
+                <div className={Styles.bookMarkText}>Bookmarked Blogs : 4</div>
+                {blogInfo.map(blogs => (
+                    <div className={Styles.checkedItemsContainer} key={blogs.id}>
+                        <div> {blogs.title}</div>
+                    </div>
+                ))}
+
             </div>
         </div>
     )
